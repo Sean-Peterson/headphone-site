@@ -11,4 +11,9 @@ how to accomplish this
     2. have a bunch of terms defined and hotlinked like a dictionary for audiophile terms like imaging, sound stage, impedence, sin waves, warm, etc.
     3. more things as they come to mind
 
-        
+
+    sooooooooooooooooooooooooooooooooooooooo
+        - im thinking that I should have many tables. A table for brand, make, style.
+            - brand (brand name, description)
+            - make (make name, description, price)
+            - style (style type, description)
