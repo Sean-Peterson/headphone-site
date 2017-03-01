@@ -1,0 +1,1 @@
+winpty /c/MAMP/bin/mysql/bin/mysql --host-localhost -uroot -proot
