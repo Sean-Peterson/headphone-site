@@ -1,0 +1,40 @@
+what tables am I gonna need?
+headphones
+    need
+        brand (various brands) many
+        model (model-name) unique
+        price(unique) unique
+        description (headphone-synopsis) unique
+        style_id
+        design_id
+        connection_id
+        setting_use_id
+        portablility_id
+        signature_id
+        price_table_id
+
+        style (iem, over-ear, on-ear) many
+        design (open-back, closed-back, noise-cancelling) many
+        connection (cord, bluetooth) many
+        setting_use (public, private) many
+        portability (portable, not-portable) many
+        signature (bass, neutral, bright) many
+        price_table(1($100),2($150),3($200),4($250),5($500)) many
+
+What do I want the user to do on the site?
+(3/8/17)
+
+Finds sight, is prompted to select a series of question.
+    What is your favorite part about music? It's all about the bass! I enjoy listening to the vocals. I listen mostly to orchestras.
+        clicks enter and is taken to another page and question
+    where do you plan on using these new headphones? Public or private?
+        clicks enter and is taken to another page and question
+    Are you going to be listening to these at home or do you need a mobile pair?
+        clicks enter and is taken to another page and question
+    Does it matter if someone else can easily hear your music? Only if they're super close? NO ONE CAN HEAR IT!
+        clicks enter and is taken to another page and question
+    Headphones with cords sound better than bluetooth headphones because of science. Can you live with a cord or do you need bluetooh?
+        clicks enter and is taken to another page and question
+    Where do you prefer your headphones? In your ears? Around your ears?
+        clicks enter and is taken to another page and question
+    I'm trying to make music come alive, so I'm willing to spend up to... $100, $150, $200, $250, $500.
