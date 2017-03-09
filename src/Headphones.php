@@ -2,36 +2,44 @@
 
 class Headphones
 {
-    private $brand;
-    private $make;
-    private $style;
-    private $description;
+    private $model;
     private $price;
+    private $description;
+    private $brand_id;
+    private $style_id;
+    private $design_id;
+    private $connection_id;
+    private $setting_id;
+    private $portability_id;
+    private $signature_id;
+    private $price_table_id;
     private $id;
 
 
-    function __construct($brand, $make, $style, $description, $price, $id=null)
+    function __construct($model, $price, $description, $brand_id, $style_id, $design_id, $connection_id, $setting_id, $portability_id, $signature_id, $price_table_id, $id=null)
     {
-        $this->brand = $brand;
-        $this->make = $make;
-        $this->style = $style;
-        $this->description = $description;
+        $this->model = $model;
         $this->price = $price;
+        $this->description = $description;
+        $this->brand = $brand_id;
+        $this->style = $style_id;
+        $this->design = $design_id;
+        $this->connection = $connection_id;
+        $this->setting = $setting_id;
+        $this->portability = $portability_id;
+        $this->signature = $signature_id;
+        $this->price_table = $price_table_id;
+        $this->id = $id;
     }
 
-    function getBrand()
+    function getModel()
     {
-        return $this->brand;
+        return $this->model;
     }
 
-    function getMake()
+    function getPrice()
     {
-        return $this->make;
-    }
-
-    function getStyle()
-    {
-        return $this->style;
+        return $this->price;
     }
 
     function getDescription()
@@ -39,9 +47,43 @@ class Headphones
         return $this->description;
     }
 
-    function getPrice()
+    function getBrandId()
     {
-        return $this->price;
+        return $this->brand_id;
+    }
+
+    function getStyleId()
+    {
+        return $this->style_id;
+    }
+
+    function getDesignId()
+    {
+        return $this->design_id;
+    }
+
+    function getConnectionId()
+    {
+        return $this->connection_id;
+    }
+
+    function getSettingId()
+    {
+        return $this->setting_id;
+    }
+
+    function getPortabiliityId()
+    {
+        return $this->portability_id;
+    }
+
+    function getSignatureId()
+    {
+        return $this->signature_id;
+    }
+    function getPriceTableId()
+    {
+        return $this->price_table_id;
     }
 
     function getId()

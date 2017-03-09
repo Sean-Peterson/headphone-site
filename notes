@@ -1,7 +1,7 @@
 what tables am I gonna need?
 headphones
     need
-        brand (various brands) many
+        brand_id
         model (model-name) unique
         price(unique) unique
         description (headphone-synopsis) unique
@@ -13,6 +13,7 @@ headphones
         signature_id
         price_table_id
 
+        brand (various brands) many
         style (iem, over-ear, on-ear) many
         design (open-back, closed-back, noise-cancelling) many
         connection (cord, bluetooth) many
